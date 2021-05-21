@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gold_rush:blocks/dirtgoldore",
+    "up": "gold_rush:blocks/dirtgoldore",
+    "north": "gold_rush:blocks/dirtgoldore",
+    "east": "gold_rush:blocks/dirtgoldore",
+    "south": "gold_rush:blocks/dirtgoldore",
+    "west": "gold_rush:blocks/dirtgoldore",
+    "particle": "gold_rush:blocks/dirtgoldore"
+  }
+}

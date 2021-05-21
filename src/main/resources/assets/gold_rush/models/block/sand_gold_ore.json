@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gold_rush:blocks/sandgoldore2",
+    "up": "gold_rush:blocks/sandgoldore2",
+    "north": "gold_rush:blocks/sandgoldore2",
+    "east": "gold_rush:blocks/sandgoldore2",
+    "south": "gold_rush:blocks/sandgoldore2",
+    "west": "gold_rush:blocks/sandgoldore2",
+    "particle": "gold_rush:blocks/sandgoldore2"
+  }
+}

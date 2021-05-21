@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="gold_rush"
+version="0.0.1"
+displayName="Gold Rush"
+credits="Mod created with MCreator."
+displayURL="https://www.curseforge.com/minecraft/mc-mods/gold-rush"
+authors="XvarioX"
+description='''
+Something more gold in your World!
+'''
+
+[[dependencies.gold_rush]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

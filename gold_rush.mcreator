@@ -1,0 +1,183 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "SandGoldOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sand_gold_ore"
+    },
+    {
+      "name": "SandGoldOreLoot",
+      "type": "loottable",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sand_gold_ore_loot"
+    },
+    {
+      "name": "SandGoldOreSmelt",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sand_gold_ore_smelt"
+    },
+    {
+      "name": "GravelGoldOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gravel_gold_ore"
+    },
+    {
+      "name": "DirtGoldOre",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_gold_ore"
+    },
+    {
+      "name": "RedSandGoldOre",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_sand_gold_ore"
+    },
+    {
+      "name": "RedSandGoldOreLoot",
+      "type": "loottable",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_sand_gold_ore_loot"
+    },
+    {
+      "name": "DirtGoldOreLoot",
+      "type": "loottable",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_gold_ore_loot"
+    },
+    {
+      "name": "GravelGoldOreLoot",
+      "type": "loottable",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gravel_gold_ore_loot"
+    },
+    {
+      "name": "SandGoldOreFurnace",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sand_gold_ore_furnace"
+    },
+    {
+      "name": "RedSandGoldOreSmelt",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_sand_gold_ore_smelt"
+    },
+    {
+      "name": "GravelGoldOreSmelt",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gravel_gold_ore_smelt"
+    },
+    {
+      "name": "DirtGoldOreSmelt",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_gold_ore_smelt"
+    },
+    {
+      "name": "RedSandGoldOreFurnace",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_sand_gold_ore_furnace"
+    },
+    {
+      "name": "DirtGoldOreFurnace",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_gold_ore_furnace"
+    },
+    {
+      "name": "GravelGoldOreFurnace",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gravel_gold_ore_furnace"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.gold_rush.red_sand_gold_ore": "Gold Ore",
+      "block.gold_rush.sand_gold_ore": "Gold Ore",
+      "block.gold_rush.dirt_gold_ore": "Gold Ore",
+      "block.gold_rush.gravel_gold_ore": "Gold Ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "gold_rush",
+    "modName": "Gold Rush",
+    "version": "0.0.1",
+    "description": "Something more gold in your World!",
+    "author": "XvarioX",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/gold-rush",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Mod created with MCreator.",
+    "modElementsPackage": "pl.xvariox.goldrush",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

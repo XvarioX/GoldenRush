@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gold_rush:blocks/redsandgoldore",
+    "up": "gold_rush:blocks/redsandgoldore",
+    "north": "gold_rush:blocks/redsandgoldore",
+    "east": "gold_rush:blocks/redsandgoldore",
+    "south": "gold_rush:blocks/redsandgoldore",
+    "west": "gold_rush:blocks/redsandgoldore",
+    "particle": "gold_rush:blocks/redsandgoldore"
+  }
+}
