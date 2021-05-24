@@ -1,0 +1,33 @@
+{
+  "group": "gold_rush",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "tag": "minecraft:planks"
+    },
+    "4": {
+      "item": "minecraft:iron_bars"
+    },
+    "5": {
+      "tag": "minecraft:planks"
+    },
+    "6": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "7": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "8": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "gold_rush:ground_sieve",
+    "count": 1
+  }
+}

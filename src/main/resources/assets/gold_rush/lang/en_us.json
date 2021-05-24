@@ -1,6 +1,10 @@
 {
   "block.gold_rush.red_sand_gold_ore": "Gold Ore",
+  "item.gold_rush.revolver": "Revolver",
+  "block.gold_rush.ground_sieve_with_sand_2": "Ground Sieve",
   "block.gold_rush.sand_gold_ore": "Gold Ore",
   "block.gold_rush.dirt_gold_ore": "Gold Ore",
+  "block.gold_rush.ground_sieve_with_sand": "Ground Sieve",
+  "block.gold_rush.ground_sieve": "Ground Sieve",
   "block.gold_rush.gravel_gold_ore": "Gold Ore"
 }

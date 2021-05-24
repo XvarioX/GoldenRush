@@ -144,6 +144,160 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gravel_gold_ore_furnace"
+    },
+    {
+      "name": "AbandonedGoldMine",
+      "type": "structure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abandoned_gold_mine"
+    },
+    {
+      "name": "AbandonedGoldMineLoot",
+      "type": "loottable",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abandoned_gold_mine_loot"
+    },
+    {
+      "name": "Revolver",
+      "type": "gun",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "revolver"
+    },
+    {
+      "name": "GroundSieveOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GroundSieve",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve"
+    },
+    {
+      "name": "GroundSieveWithSand",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_sand"
+    },
+    {
+      "name": "GroundSieveWithSand2",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_sand_2"
+    },
+    {
+      "name": "GroundSieveWithSand1OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_sand_1_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GroundSieveWithSand2OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_sand_2_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GroundSieveRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_recipe"
     }
   ],
   "variable_elements": [],
@@ -151,8 +305,12 @@
   "language_map": {
     "en_us": {
       "block.gold_rush.red_sand_gold_ore": "Gold Ore",
+      "item.gold_rush.revolver": "Revolver",
+      "block.gold_rush.ground_sieve_with_sand_2": "Ground Sieve",
       "block.gold_rush.sand_gold_ore": "Gold Ore",
       "block.gold_rush.dirt_gold_ore": "Gold Ore",
+      "block.gold_rush.ground_sieve_with_sand": "Ground Sieve",
+      "block.gold_rush.ground_sieve": "Ground Sieve",
       "block.gold_rush.gravel_gold_ore": "Gold Ore"
     }
   },

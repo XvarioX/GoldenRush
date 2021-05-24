@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "oak_log": "oak_log",
+        "oak_planks": "oak_planks",
+        "iron_bars": "iron_bars"
+      },
+      "name": "default"
+    }
+  }
+}

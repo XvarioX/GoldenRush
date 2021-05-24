@@ -1,0 +1,10 @@
+{
+  "parent": "gold_rush:custom/sitozkrata",
+  "textures": {
+    "all": "gold_rush:blocks/oak_planks",
+    "particle": "gold_rush:blocks/oak_planks",
+    "oak_log": "gold_rush:blocks/oak_log",
+    "oak_planks": "gold_rush:blocks/oak_planks",
+    "iron_bars": "gold_rush:blocks/iron_bars"
+  }
+}
