@@ -52,7 +52,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:GroundSieveStative"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -93,11 +93,11 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
-    "inventorySize": 9,
-    "inventoryStackSize": 64,
+    "inventorySize": 1,
+    "inventoryStackSize": 1,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
@@ -111,7 +111,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "GroundSieveWithSand1OnBlockRightClicked"
+      "name": "GroundSieveStativeOnBlockRightClicked"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

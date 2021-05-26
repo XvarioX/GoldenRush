@@ -57,7 +57,7 @@ public class GravelGoldOreBlock extends GoldRushModElements.ModElement {
 	public static class CustomBlock extends FallingBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(0.5f, 1.5f).setLightLevel(s -> 0)
-					.harvestLevel(-1).harvestTool(ToolType.SHOVEL));
+					.harvestLevel(-1).harvestTool(ToolType.SHOVEL).setRequiresTool());
 			setRegistryName("gravel_gold_ore");
 		}
 	}

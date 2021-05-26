@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "sitozkrata:default",
+    "customModelName": "sito:default",
     "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -41,18 +41,18 @@
         "subtract": false
       }
     ],
-    "name": "Ground Sieve",
+    "name": "Ground Sieve Stative",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "DECORATIONS"
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:GroundSieveStative"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

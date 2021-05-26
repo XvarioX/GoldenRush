@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.IRON_NUGGET"
       },
       {
-        "value": ""
+        "value": "Items.IRON_NUGGET"
       },
       {
-        "value": "Blocks.PLANKS"
+        "value": "Items.IRON_NUGGET"
       },
       {
-        "value": ""
+        "value": "Items.IRON_NUGGET"
       },
       {
-        "value": "Items.STICK"
+        "value": "Blocks.IRON_BARS"
       },
       {
-        "value": "Blocks.PLANKS"
+        "value": "Items.IRON_NUGGET"
       },
       {
-        "value": "Blocks.WOODEN_SLAB"
+        "value": "Items.IRON_NUGGET"
       },
       {
-        "value": "Blocks.WOODEN_SLAB"
+        "value": "Items.IRON_NUGGET"
       },
       {
-        "value": "Blocks.WOODEN_SLAB"
+        "value": "Items.IRON_NUGGET"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:GroundSieveStative"
+      "value": "CUSTOM:Sito"
     },
-    "name": "ground_sieve_recipe",
+    "name": "sieve_recipe",
     "namespace": "mod"
   }
 }

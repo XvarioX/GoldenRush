@@ -173,39 +173,6 @@
       "registry_name": "revolver"
     },
     {
-      "name": "GroundSieveOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ground_sieve_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "GroundSieve",
       "type": "block",
       "sortid": 21,
@@ -233,64 +200,6 @@
       "registry_name": "ground_sieve_with_sand_2"
     },
     {
-      "name": "GroundSieveWithSand1OnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ground_sieve_with_sand_1_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "GroundSieveWithSand2OnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "ground_sieve_with_sand_2_on_block_right_clicked",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "GroundSieveRecipe",
       "type": "recipe",
       "sortid": 26,
@@ -298,6 +207,66 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "ground_sieve_recipe"
+    },
+    {
+      "name": "GroundSieveStative",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_stative"
+    },
+    {
+      "name": "Sito",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sieve"
+    },
+    {
+      "name": "GroundSieveStativeOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_stative_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SieveRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sieve_recipe"
     }
   ],
   "variable_elements": [],
@@ -310,7 +279,9 @@
       "block.gold_rush.sand_gold_ore": "Gold Ore",
       "block.gold_rush.dirt_gold_ore": "Gold Ore",
       "block.gold_rush.ground_sieve_with_sand": "Ground Sieve",
+      "item.gold_rush.sieve": "Sieve",
       "block.gold_rush.ground_sieve": "Ground Sieve",
+      "block.gold_rush.ground_sieve_stative": "Ground Sieve Stative",
       "block.gold_rush.gravel_gold_ore": "Gold Ore"
     }
   },
@@ -321,7 +292,7 @@
   "workspaceSettings": {
     "modid": "gold_rush",
     "modName": "Gold Rush",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Something more gold in your World!",
     "author": "XvarioX",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/gold-rush",

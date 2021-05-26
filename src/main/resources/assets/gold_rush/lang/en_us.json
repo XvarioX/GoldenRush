@@ -5,6 +5,8 @@
   "block.gold_rush.sand_gold_ore": "Gold Ore",
   "block.gold_rush.dirt_gold_ore": "Gold Ore",
   "block.gold_rush.ground_sieve_with_sand": "Ground Sieve",
+  "item.gold_rush.sieve": "Sieve",
   "block.gold_rush.ground_sieve": "Ground Sieve",
+  "block.gold_rush.ground_sieve_stative": "Ground Sieve Stative",
   "block.gold_rush.gravel_gold_ore": "Gold Ore"
 }

@@ -11,7 +11,7 @@
       "tag": "minecraft:planks"
     },
     "4": {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:stick"
     },
     "5": {
       "tag": "minecraft:planks"
@@ -27,7 +27,7 @@
     }
   },
   "result": {
-    "item": "gold_rush:ground_sieve",
+    "item": "gold_rush:ground_sieve_stative",
     "count": 1
   }
 }

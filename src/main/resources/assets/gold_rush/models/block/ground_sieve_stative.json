@@ -1,0 +1,9 @@
+{
+  "parent": "gold_rush:custom/sito",
+  "textures": {
+    "all": "gold_rush:blocks/oak_planks",
+    "particle": "gold_rush:blocks/oak_planks",
+    "oak_log": "gold_rush:blocks/oak_log",
+    "oak_planks": "gold_rush:blocks/oak_planks"
+  }
+}

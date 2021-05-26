@@ -59,7 +59,7 @@ public class DirtGoldOreBlock extends GoldRushModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(0.5f, 1.5f).setLightLevel(s -> 0)
-					.harvestLevel(-1).harvestTool(ToolType.SHOVEL));
+					.harvestLevel(-1).harvestTool(ToolType.SHOVEL).setRequiresTool());
 			setRegistryName("dirt_gold_ore");
 		}
 

@@ -43,6 +43,7 @@ import net.minecraft.network.NetworkManager;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
@@ -71,25 +72,26 @@ import java.util.HashMap;
 import java.util.Collections;
 
 @GoldRushModElements.ModElement.Tag
-public class GroundSieveBlock extends GoldRushModElements.ModElement {
-	@ObjectHolder("gold_rush:ground_sieve")
+public class GroundSieveStativeBlock extends GoldRushModElements.ModElement {
+	@ObjectHolder("gold_rush:ground_sieve_stative")
 	public static final Block block = null;
-	@ObjectHolder("gold_rush:ground_sieve")
+	@ObjectHolder("gold_rush:ground_sieve_stative")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
-	public GroundSieveBlock(GoldRushModElements instance) {
-		super(instance, 21);
+	public GroundSieveStativeBlock(GoldRushModElements instance) {
+		super(instance, 27);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.DECORATIONS)).setRegistryName(block.getRegistryName()));
 	}
 	private static class TileEntityRegisterHandler {
 		@SubscribeEvent
 		public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-			event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("ground_sieve"));
+			event.getRegistry()
+					.register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("ground_sieve_stative"));
 		}
 	}
 	@Override
@@ -103,7 +105,7 @@ public class GroundSieveBlock extends GoldRushModElements.ModElement {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
 					.setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("ground_sieve");
+			setRegistryName("ground_sieve_stative");
 		}
 
 		@Override
@@ -155,7 +157,7 @@ public class GroundSieveBlock extends GoldRushModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(GroundSieveStativeBlock.block, (int) (1)));
 		}
 
 		@Override
@@ -268,7 +270,7 @@ public class GroundSieveBlock extends GoldRushModElements.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("ground_sieve");
+			return new StringTextComponent("ground_sieve_stative");
 		}
 
 		@Override
@@ -283,7 +285,7 @@ public class GroundSieveBlock extends GoldRushModElements.ModElement {
 
 		@Override
 		public ITextComponent getDisplayName() {
-			return new StringTextComponent("Ground Sieve");
+			return new StringTextComponent("Ground Sieve Stative");
 		}
 
 		@Override
