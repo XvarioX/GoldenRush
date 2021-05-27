@@ -1,10 +1,10 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="All Rights Reserved"
+license="Academic Free License v3.0"
 
 [[mods]]
 modId="gold_rush"
-version="0.0.2"
+version="0.0.3"
 displayName="Gold Rush"
 credits="Mod created with MCreator."
 displayURL="https://www.curseforge.com/minecraft/mc-mods/gold-rush"

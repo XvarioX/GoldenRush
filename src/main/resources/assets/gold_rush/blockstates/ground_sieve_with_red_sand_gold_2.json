@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "gold_rush:block/ground_sieve_with_red_sand_gold_2"
+    },
+    "facing=east": {
+      "model": "gold_rush:block/ground_sieve_with_red_sand_gold_2",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "gold_rush:block/ground_sieve_with_red_sand_gold_2",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "gold_rush:block/ground_sieve_with_red_sand_gold_2",
+      "y": 270
+    }
+  }
+}

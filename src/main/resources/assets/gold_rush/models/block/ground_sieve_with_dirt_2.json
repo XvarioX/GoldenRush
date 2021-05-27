@@ -1,0 +1,11 @@
+{
+  "parent": "gold_rush:custom/sitozpiachem2",
+  "textures": {
+    "all": "gold_rush:blocks/dirt",
+    "particle": "gold_rush:blocks/dirt",
+    "sand": "gold_rush:blocks/dirt",
+    "oak_log": "gold_rush:blocks/oak_log",
+    "oak_planks": "gold_rush:blocks/oak_planks",
+    "iron_bars": "gold_rush:blocks/iron_bars"
+  }
+}

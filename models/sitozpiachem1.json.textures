@@ -8,6 +8,69 @@
         "iron_bars": "iron_bars"
       },
       "name": "default"
+    },
+    "red_sand": {
+      "map": {
+        "sand": "red_sand",
+        "oak_log": "oak_log",
+        "oak_planks": "oak_planks",
+        "iron_bars": "iron_bars"
+      },
+      "name": "red_sand"
+    },
+    "gravel": {
+      "map": {
+        "sand": "gravel",
+        "oak_log": "oak_log",
+        "oak_planks": "oak_planks",
+        "iron_bars": "iron_bars"
+      },
+      "name": "gravel"
+    },
+    "dirt": {
+      "map": {
+        "sand": "dirt",
+        "oak_log": "oak_log",
+        "oak_planks": "oak_planks",
+        "iron_bars": "iron_bars"
+      },
+      "name": "dirt"
+    },
+    "sandgoldore": {
+      "map": {
+        "sand": "sandgoldore2",
+        "oak_log": "oak_log",
+        "oak_planks": "oak_planks",
+        "iron_bars": "iron_bars"
+      },
+      "name": "sandgoldore"
+    },
+    "red_sandgoldore": {
+      "map": {
+        "sand": "redsandgoldore",
+        "oak_log": "oak_log",
+        "oak_planks": "oak_planks",
+        "iron_bars": "iron_bars"
+      },
+      "name": "red_sandgoldore"
+    },
+    "gravelgoldore": {
+      "map": {
+        "sand": "gravelgoldore",
+        "oak_log": "oak_log",
+        "oak_planks": "oak_planks",
+        "iron_bars": "iron_bars"
+      },
+      "name": "gravelgoldore"
+    },
+    "dirtgoldore": {
+      "map": {
+        "sand": "dirtgoldore",
+        "oak_log": "oak_log",
+        "oak_planks": "oak_planks",
+        "iron_bars": "iron_bars"
+      },
+      "name": "dirtgoldore"
     }
   }
 }

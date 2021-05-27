@@ -52,7 +52,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:GroundSieveStative"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -68,7 +68,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:GroundSieveStative"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

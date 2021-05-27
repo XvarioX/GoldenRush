@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "oak_planks",
+    "texture": "sand",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -68,7 +68,7 @@
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:GroundSieveStative"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

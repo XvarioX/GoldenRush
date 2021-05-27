@@ -267,22 +267,162 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "sieve_recipe"
+    },
+    {
+      "name": "GroundSieveWithRedSand",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_red_sand"
+    },
+    {
+      "name": "GroundSieveWithRedSand2",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_red_sand_2"
+    },
+    {
+      "name": "GroundSieveWithGravel",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_gravel"
+    },
+    {
+      "name": "GroundSieveWithGravel2",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_gravel_2"
+    },
+    {
+      "name": "GroundSieveWithDirt",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_dirt"
+    },
+    {
+      "name": "GroundSieveWithDirt2",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_dirt_2"
+    },
+    {
+      "name": "GroundSieveWithSandGold",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_sand_gold"
+    },
+    {
+      "name": "GroundSieveWithSandGold2",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_sand_gold_2"
+    },
+    {
+      "name": "GroundSieveWithGravelGold",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_gravel_gold"
+    },
+    {
+      "name": "GroundSieveWithGravelGold2",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_gravel_gold_2"
+    },
+    {
+      "name": "GroundSieveWithRedSandGold",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_red_sand_gold"
+    },
+    {
+      "name": "GroundSieveWithRedSandGold2",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_red_sand_gold_2"
+    },
+    {
+      "name": "GroundSieveWithDirtGold",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_dirt_gold"
+    },
+    {
+      "name": "GroundSieveWithDirtGold2",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ground_sieve_with_dirt_gold_2"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.gold_rush.red_sand_gold_ore": "Gold Ore",
-      "item.gold_rush.revolver": "Revolver",
-      "block.gold_rush.ground_sieve_with_sand_2": "Ground Sieve",
+      "block.gold_rush.ground_sieve_with_sand_gold": "Ground Sieve",
+      "block.gold_rush.ground_sieve_with_gravel_2": "Ground Sieve",
+      "block.gold_rush.ground_sieve_with_dirt_gold_2": "Ground Sieve",
       "block.gold_rush.sand_gold_ore": "Gold Ore",
+      "block.gold_rush.ground_sieve_with_gravel": "Ground Sieve",
+      "block.gold_rush.ground_sieve_with_dirt_gold": "Ground Sieve",
+      "block.gold_rush.ground_sieve_with_dirt_2": "Ground Sieve",
+      "block.gold_rush.ground_sieve_with_red_sand_gold": "Ground Sieve",
+      "block.gold_rush.ground_sieve_with_gravel_gold_2": "Ground Sieve",
+      "item.gold_rush.sieve": "Sieve",
+      "block.gold_rush.ground_sieve_stative": "Ground Sieve Stative",
+      "block.gold_rush.ground_sieve_with_sand_2": "Ground Sieve",
+      "block.gold_rush.ground_sieve_with_red_sand": "Ground Sieve",
       "block.gold_rush.dirt_gold_ore": "Gold Ore",
       "block.gold_rush.ground_sieve_with_sand": "Ground Sieve",
-      "item.gold_rush.sieve": "Sieve",
+      "block.gold_rush.ground_sieve_with_red_sand_gold_2": "Ground Sieve",
       "block.gold_rush.ground_sieve": "Ground Sieve",
-      "block.gold_rush.ground_sieve_stative": "Ground Sieve Stative",
-      "block.gold_rush.gravel_gold_ore": "Gold Ore"
+      "block.gold_rush.gravel_gold_ore": "Gold Ore",
+      "block.gold_rush.ground_sieve_with_red_sand_2": "Ground Sieve",
+      "block.gold_rush.ground_sieve_with_dirt": "Ground Sieve",
+      "block.gold_rush.ground_sieve_with_gravel_gold": "Ground Sieve",
+      "item.gold_rush.revolver": "Revolver",
+      "block.gold_rush.red_sand_gold_ore": "Gold Ore",
+      "block.gold_rush.ground_sieve_with_sand_gold_2": "Ground Sieve"
     }
   },
   "foldersRoot": {
@@ -292,11 +432,11 @@
   "workspaceSettings": {
     "modid": "gold_rush",
     "modName": "Gold Rush",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Something more gold in your World!",
     "author": "XvarioX",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/gold-rush",
-    "license": "All Rights Reserved",
+    "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
